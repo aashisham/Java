@@ -1,19 +1,19 @@
 class ThrowsDemo
 {
-	 //object ko reference chaEnna coz of static
-	static void throwOne() throws IllegalAccessException //method le exception throw garyo =throw le derai excetion lai falna sakxa i.e done inside the declaration of method throw le euta matra garxa
+	 //no object reference because of static
+	static void throwOne() throws IllegalAccessException 
 	{
 		System.out.println("inside throwOne"); 
-		// throw new ArithmeticException("this is ArithmeticException"); //this is a run time exception so default handler hunxa so catch banaunai pardena and nabanayeni compile hunxa
-		throw new IllegalAccessException("this is IllegalAccessException");  //this is not run time so yesko handler banaunai parxa i.e catch pani chaiyo so to remove this error use throws
-		//yellai handler(catch) nabhai kana garauna lai throws rule launa parxa =jun le call garxa yo nethod lai tele handler banauna parxa
+		// throw new ArithmeticException("this is ArithmeticException"); //this is a run time exception so it has default handler so no need of catch
+		throw new IllegalAccessException("this is IllegalAccessException");  //this is not run time so we need to create handler banaunai parxa i.e create catch so to remove this error use throws
+	
 
 	}
 	public static void main(String[] args) 
 	{
 		try
 		{
-			throwOne(); //rule ma bind garna paryo yo calling method lai
+			throwOne(); //we need to bind this calling method in rule
 		}
 		catch(IllegalAccessException e)
 		{
