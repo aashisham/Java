@@ -74,11 +74,11 @@ Syntax:
 - It is an optional attribute that specifies the base URL of the applet code, which is the directory that will be searched for the applets executable class file.
 - The HTML Document URL Directory is used as the CODEBASE if this attribute is not specified.
 ## CODE :
--Code is the required attribute that gives the name of file containing compiled .class file. This file is related to the code base UTL of the applet.
+- Code is the required attribute that gives the name of file containing compiled .class file. This file is related to the code base UTL of the applet.
 ## ALT :
 - The ALT tag is an alternate tag used to specify a short text message that should be displayed if the browser recognized the applet tag but can't currently run JAVA applet.
 ## NAME :
--NAME is an optional attribute used to specify a name for the applet instance. NAME attribute is used in order to communicate between applets on the same page.
+- NAME is an optional attribute used to specify a name for the applet instance. NAME attribute is used in order to communicate between applets on the same page.
 ## WIDTH and HEIGHT :
 - WIDTH and HEIGHT are the required attributes that gives the size of the applet display area.
 ## ALIGN :
