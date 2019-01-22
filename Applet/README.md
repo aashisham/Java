@@ -48,6 +48,7 @@
 # The HTML APPLET Tag  :
 
 Syntax:
+
     ```
     <Applet
     [CODEBASE = codebaseURL]
