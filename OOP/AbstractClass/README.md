@@ -1,4 +1,6 @@
 # Abstract Class :
+![abstractclass](https://user-images.githubusercontent.com/33601771/51620300-292f6380-1f5a-11e9-83b1-8ea763cfd4ce.jpg)
+
 > Extract class ko object garauna payinna
 - There are situations in which you will want to define a superclass that declares the structure of a given abstration without providing a complete implement ation of every method.
 - That is, sometimes you will want to create a superclass that only defines a generalized form that will be shared by all of its subclasses, leaving it to each subclass to fill in the detail.
