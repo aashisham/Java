@@ -1,21 +1,16 @@
-Package GCES;
-public class Student
-{
-	string name;
-	int roll;
+package GCES ;
+public class Student{
+    String name;
+    int rollNo;
 
-	public Student(int r,string n)
-	{
-		roll = r;
-		name = n;
+    public Student(String name, int rollNo){
+        this.name = name;
+        this.rollNo = rollNo;
+    }
 
-	}
-
-
-	public void DisplayDetails()
-	{
-		Sytem.out.println("Name ="+name);
-		Sytem.out.println("Roll = "+roll);
-
-	}
+    public void display(){
+        System.out.println("The details of student is :");
+        System.out.println("Name = "+name);
+        System.out.println("Roll No = "+rollNo);
+    }
 }
