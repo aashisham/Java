@@ -31,7 +31,7 @@ class Dispatch
 
 		A r ; // refrence of type A
 
-		r = a ; 
+		r = a ;  // refers to A
 		r.callMe();
 
 		r = b ;
@@ -41,3 +41,9 @@ class Dispatch
 		r.callMe();
 	}
 }
+
+
+// Output 
+//  Inside A
+//  Inside B
+//  Inside C
