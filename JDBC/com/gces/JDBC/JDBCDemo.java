@@ -8,12 +8,12 @@ import java.sql.Statement;
 
 public class JDBCDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NullPointerException {
 		String sql = "SELECT * from employees";
 		
 		try {
 		// step1 : Load and Register Driver
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver"); // Driver Class Name
 		
 		//step 2 : Establish connection between apps and db
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/gces","root",""); //3306 mysql ko default port ho
