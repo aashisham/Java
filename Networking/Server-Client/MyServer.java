@@ -12,8 +12,10 @@ public class MyServer {
 			// Step 2 : Then, Server object envokes accept() method of ServerSocket class. This waits for client until client creates Socket object.
 			Socket s = ss.accept();  //establish connection 
 			
+			// This gets the message sent by the client.
 			DataInputStream dis =new DataInputStream(s.getInputStream());
 
+			// Typehinting the UTF message into string
 			String str = (String)dis.readUTF();
 
 			System.out.print("message"+str);
