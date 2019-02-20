@@ -5,7 +5,7 @@ public class FlagOfNepal extends Frame
 {
 	FlagOfNepal()
 	{
-		// Frame frame = new Frame(); extends frame lekhya vayera yo na lekhni
+		
 		setTitle("Nepali Flag");
 		setSize(800,800);
 		setVisible(true);
